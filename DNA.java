@@ -9,7 +9,7 @@ public class DNA {
     public DNA(int geneLength) {
         genes = new char[geneLength];
         for(int i=0; i<geneLength; i++) {
-            genes[i] = (char)(rand.nextInt(26) + 97);
+            genes[i] = (char)(rand.nextInt(91) + 32);
         }
     }
 
@@ -30,3 +30,4 @@ public class DNA {
         }
     }
 }
+
